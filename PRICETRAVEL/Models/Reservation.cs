@@ -13,5 +13,6 @@ namespace PRICETRAVEL.Models
         public decimal amount { get; set; }
         public string? currency { get; set; }
         public int userIdCreatedBy { get; set; }    
+        public int csaid { get; set; }
     }
 }
